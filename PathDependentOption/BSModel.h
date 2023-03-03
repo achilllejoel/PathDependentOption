@@ -38,6 +38,7 @@ public:
     void GenerateSamplePath(double T, int m, SamplePathBasket& S);
 };
 
+double Gauss();
 
 #endif
 

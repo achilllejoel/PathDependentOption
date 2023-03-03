@@ -113,3 +113,16 @@ double VectorSum(const Vector& V) {
     }
     return s;   
 }
+
+
+void operator>>(const SamplePath& S, ofstream * f) {
+
+    int d = S.size();
+    *f << S[0];
+    for (int j = 1; j < d; j++)
+    {
+        *f << ";" << S[j];
+    }
+    *f << endl;
+}
+    ;

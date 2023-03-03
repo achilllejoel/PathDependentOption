@@ -13,7 +13,7 @@ int MainArthmAsianCall()
     BSModel Model(S0, r, sigma);
     //ofstream out_file("./output.txt");
 
-    double T = 1.0, K = 100.0;
+    double T = 1.0 / 12, K = 100.0;
     int m = 30;
 
     ArthmAsianCall Option(T, K, m);

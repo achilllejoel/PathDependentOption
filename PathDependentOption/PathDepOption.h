@@ -53,6 +53,8 @@ public:
     double PriceByBSFormula(BSModelBasket Model);
 };
 
+int MainBasketVarianceReduction();
+
 #endif
 
 
